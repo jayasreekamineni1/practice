@@ -44,7 +44,8 @@ public void authorise_charge_on()
 public void authorise_charge_notice_click_continue() throws IOException, InterruptedException
 {
 
-	Thread.sleep(7000);	
+	Thread.sleep(6000);
+	Thread.sleep(1000);
 	WebElement frame =driver_Authorise_charge_notice_popbitch.findElement((By.id("iframe__inpage_notices")));
 	Thread.sleep(6000);
 	driver_Authorise_charge_notice_popbitch.switchTo().frame(frame);			
