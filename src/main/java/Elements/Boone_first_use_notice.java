@@ -34,7 +34,7 @@ public class Boone_first_use_notice {
 				Thread.sleep(4000);
 				JavascriptExecutor js = (JavascriptExecutor)driver_Boone_Reports_First_Use_Notice;
 				js.executeScript("window.scrollBy(0,800)");
-				Thread.sleep(2000);
+				Thread.sleep(5000);
 				WebElement frame = 	driver_Boone_Reports_First_Use_Notice.findElement(By.xpath("//*[@id=\"iframe__inpage_notices\"]"));
 				driver_Boone_Reports_First_Use_Notice.switchTo().frame(frame);
 				WebElement boone_First_use_Login= driver_Boone_Reports_First_Use_Notice.findElement(By.id("btn_login"));
